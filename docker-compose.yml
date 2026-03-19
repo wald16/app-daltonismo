@@ -1,0 +1,6 @@
+services:
+  vision:
+    build: .
+    ports:
+      - "80:80"
+    restart: unless-stopped
