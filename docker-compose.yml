@@ -2,7 +2,7 @@ services:
   vision:
     build: .
     ports:
-      - "10.13.13.1:1366:1366"
+      - "10.13.13.1:1366:80"
     restart: unless-stopped
   cloudflare_tunnel:
     container_name: tunnel_daltonismo
