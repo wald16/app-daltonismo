@@ -10,5 +10,5 @@ services:
     network_mode: host
     restart: unless-stopped
     command: tunnel run
-    enviroment:
+    environment:
     - TUNNEL_TOKEN=${TUNNEL_TOKEN}
